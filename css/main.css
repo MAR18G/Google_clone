@@ -1,0 +1,184 @@
+body{
+    /* MARGEN PREDERTERMINADO*/
+    margin: 0%;
+    /*MARGEN DENTRO*/
+    padding: 0%;
+    /*TAMAÑO DE TEXTO*/
+    font-size: 12px;
+    /*FUENTE DE TEXTO*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+/*NAVEGACION*/
+
+header{
+    /*width- ancho // height- alto*/
+    width: 100%;
+    height: 50px;
+}
+
+header nav{ 
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-seccion-derecha{
+ 
+    /*ELIMINAR VIÑETAS*/
+    list-style: none;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*ALTURA AUTOMATICA*/
+    height: auto;
+}
+
+
+
+nav .nav-seccion-derecha a{
+    /*COLOR DE TEXTO*/
+    text-decoration: name ;
+    margin-right: 25px;
+    color:rgb(21, 21, 21)
+    /*LINEA DEBAJO DE*/
+    text-decoration
+    /*MARGEN DERECHO*/
+    margin-right
+}
+
+nav .nav-seccion-derecha .menu{
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+
+nav .nav-seccion-derecha img{
+    /* MARGIN LEFT- margen a la izquierda SOLAMENTE*/
+    margin-left: 20px;
+    /*BORDER RADIUS - para hacer circular la imagen*/
+    border-radius: 100px;
+    /*WIDTH- anchura*/
+    width: 35px;
+}
+
+
+/*MAIN*/
+main{
+    text-align: center;
+    margin-top: 160px;
+}
+/*SECCION GOOGLE*/
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+/*LOGO GOOGLE*/
+main .main-logo img{
+    height: 100px;
+}
+
+/*SECCION IMPUT*/
+main .main-imput{
+    /*anchura*/
+    width: 550px;
+    /*margenes y centrado*/
+    margin: 0 auto;
+    /*separador de botones*/
+    margin-bottom: 40px;
+}
+
+/*cajita gris redonda del buscador*/
+main .main-imput-container{
+    /*ancho de la linea, estilo y color*/
+    border: 1px solid #dfe1e5;
+    /*bordes redondeados*/ 
+    border-radius: 30px;
+    width: 525px;
+    /*mis componentes sean flexibles y se muevan*/
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+main .main-imput input{
+    height: 40px;
+    width: 430px;
+    /*quitar el borde negro*/
+    border: none;
+    /*quitar borde azul al hacer click*/
+    outline: none;
+}
+
+main .main-imput .search-icon {
+    /*poner una imagen*/
+   background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+   /*centrar la imagen*/ 
+   background-position: center;
+   /*tamaño del icono*/ 
+   width: 15px;
+   height: 15px;
+   /*icono contenido*/ 
+    background-size: contain;
+    padding-left: 6%;
+    background-repeat: no-repeat;
+}
+
+main .main-imput .micro-icon{
+    background-color: url(:https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png) ;
+    width: 17px;
+    height: 17px;
+    /*icono contenido dentro del espacio*/ 
+    background-size: contain;
+    background-position: center;
+    padding-left: 1%;
+    background-repeat: no-repeat;
+}
+
+main .main-imput .cam-icon{
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    width: 17px;
+    height: 17px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-right: 6%;
+}
+
+main .main-botons{
+    width: 550px;
+    /*vertical/horizontal*/
+    margin: 0 auto;
+}
+
+main .main-botons div{
+    /*alinear elementos en la misma linea*/
+    display: inline-block;
+}
+
+main .main-botons button{
+    border: 0;
+    height: 40px;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 4px;
+    margin-right: 10px;
+    padding: 0 15px;
+}
+
+/*nos permite agregarle diseño al cursos sobre el elemento*/
+main .main-imput-container:hover{
+    box-shadow: 0 0 5px #20212447;
+}
+
+main .main-botons button:hover{
+    color: #202124;
+    /*ancho de la linea-estilo de linea-color*/
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px #181717;
+}
